@@ -1,0 +1,12 @@
+{
+  "name": "au-flights-pipeline",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Downloads and aggregates BITRE domestic airline on-time performance data.",
+  "scripts": {
+    "collect": "node collect.mjs",
+    "aggregate": "node aggregate.mjs",
+    "all": "node collect.mjs && node aggregate.mjs"
+  }
+}

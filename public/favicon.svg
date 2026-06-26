@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Flight Delays AU">
+  <rect width="64" height="64" rx="14" fill="#0284c7" />
+  <path
+    d="M52 33.5c.9-.3 1.4-1.2 1.1-2.1-.3-.9-1.2-1.4-2.1-1.2l-12.7 3.4-13.2-12a2 2 0 0 0-1.9-.4l-2.6.7c-.8.2-1.2 1.1-.8 1.8l6.2 11-9.1 2.4-3.8-2.6a1.5 1.5 0 0 0-1.2-.2l-1.7.5c-.7.2-1 1-.6 1.6l3.9 6.1c.3.5.9.8 1.5.6L52 33.5Z"
+    fill="#ffffff"
+  />
+  <rect x="13" y="50" width="38" height="3.4" rx="1.7" fill="#bae6fd" />
+</svg>
