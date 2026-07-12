@@ -2,8 +2,8 @@ name: Data Pipeline
 
 on:
   schedule:
-    # BITRE publishes monthly; refresh a few times a week to catch updates promptly.
-    - cron: '23 19 * * 1,4'
+    # Cadence: quarterly (BITRE monthly source, batched)
+    - cron: '23 19 7 1,4,7,10 *'
   workflow_dispatch:
   push:
     branches: [main]
