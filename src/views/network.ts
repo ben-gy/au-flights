@@ -3,6 +3,7 @@ import { formatNumber, formatPct, otpColor, esc } from '../format.ts';
 import { airportCode } from '../data/airports.ts';
 import { perfLegend } from './shared.ts';
 import { term } from '../glossary-ui.ts';
+import { attachSvgZoom } from '../utils/svgZoom.ts';
 
 interface PairAirline {
   name: string;
@@ -250,4 +251,7 @@ export function mount(root: HTMLElement, data: AppData): void {
 
   select.addEventListener('change', () => paint(select.value));
   paint('');
+
+  // Wheel-zoom + drag-pan (deferred pointer capture keeps node clicks/hover alive).
+  attachSvgZoom(svg);
 }

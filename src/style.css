@@ -984,6 +984,7 @@ a.bar-row:hover {
   font-size: 0.82rem;
 }
 .network-shell {
+  position: relative;
   background: var(--bg-panel);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
@@ -993,6 +994,37 @@ a.bar-row:hover {
 .network-svg {
   width: 100%;
   height: auto;
+}
+.svg-zoom-controls {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 5;
+}
+.svg-zoom-controls button {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--text-secondary);
+  background: var(--bg-panel);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+.svg-zoom-controls button:hover {
+  color: var(--accent);
+  background: var(--bg-hover);
+  border-color: var(--border-strong);
 }
 .net-edge {
   stroke: var(--border-strong);
