@@ -96,7 +96,7 @@ function renderFooter(): string {
           Source: <a href="https://data.gov.au/data/dataset/domestic-airline-on-time-performance" target="_blank" rel="noopener">BITRE Domestic Airline On Time Performance</a>
           · Latest data ${esc(DATA.summary.latestLabel)} · Updated ${esc(updated)}
         </p>
-        <p>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · An independent tool, not affiliated with BITRE or any airline.</p>
+        <p>Built by <a href="https://benrichardson.dev/" target="_blank" rel="noopener">benrichardson.dev</a> · <a href="https://hub.benrichardson.dev" target="_blank" rel="noopener">more tools &amp; sites</a> · An independent tool, not affiliated with BITRE or any airline.</p>
       </div>
     </footer>`;
 }
