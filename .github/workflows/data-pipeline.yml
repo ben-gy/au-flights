@@ -2,8 +2,8 @@ name: Data Pipeline
 
 on:
   schedule:
-    # Cadence: quarterly (BITRE monthly source, batched)
-    - cron: '23 19 7 1,4,7,10 *'
+    # Cadence: monthly (BITRE OTP publishes monthly)
+    - cron: '23 19 7 * *'
   workflow_dispatch:
   push:
     branches: [main]
