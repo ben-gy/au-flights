@@ -70,6 +70,17 @@ node pipeline/collect.mjs && node pipeline/aggregate.mjs
 
 A Node script (`pipeline/collect.mjs`) downloads the BITRE CSV. A second script (`pipeline/aggregate.mjs`) parses all 118,000 rows and pre-computes compact JSON: airline rollups with monthly time series, per-route figures with airline breakdowns and trends, airport aggregates, and the national monthly series. These land in `public/data/` and are committed by the `Data Pipeline` GitHub Action on a cron schedule. The frontend fetches those JSON files on load and renders everything client-side — all insights, rankings and charts are derived in the browser, so there is no server to run.
 
-## License
+## license
 
-MIT
+[GNU Affero General Public License v3.0 or later](./LICENSE), with an attribution
+requirement added under section 7(b) — see
+[ADDITIONAL-TERMS.md](./ADDITIONAL-TERMS.md).
+
+In short: you may run, modify, redistribute and even sell this, but if you
+distribute it — or run a modified version where other people can reach it — you
+have to publish your source under the same licence and keep the attribution. A
+separate commercial licence without those obligations is available on request:
+<hi@ben.gy>.
+
+Third-party components keep their own licences — see
+[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).

@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Auto-detected insights from the aggregated data. Pure functions, unit-tested.
 import type { AppData, Airline, Route, NationalPoint } from './types.ts';
 

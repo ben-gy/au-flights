@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Aggregates the BITRE OTP CSV into compact JSON for the frontend.
 // Reads pipeline/otp.csv, writes public/data/*.json.
 import { readFile, writeFile, mkdir } from 'node:fs/promises';

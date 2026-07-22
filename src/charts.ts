@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Hand-rolled SVG chart builders. Every chart returns an SVG markup string and
 // uses data-tip attributes for hover tooltips (wired globally in tooltip.ts).
 import { esc } from './format.ts';

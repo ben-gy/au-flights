@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Downloads the latest BITRE Domestic Airline On Time Performance CSV.
 // Source: https://data.gov.au/data/dataset/domestic-airline-on-time-performance
 import { writeFile } from 'node:fs/promises';
